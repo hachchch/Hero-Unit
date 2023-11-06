@@ -1,0 +1,58 @@
+[
+        {
+                "name": "Hero",
+                "strength": 14,
+                "unitType": "Sword",
+                ""
+        },
+        {
+                "name": "Organ Cannon",
+                "range": 2,
+                "rangedStrength": 17,
+                "movement": 2,
+                "strength": 8,
+                "unitType": "Siege",
+                "uniqueTo": "Germany",
+                "replaces": "Hero",
+                "uniques": ["[+150]% Strength <after discovering [Chemistry]>","Must set up to ranged attack","[+100]% Strength <vs [Melee] units>"],
+        },
+        {
+                "name": "King",
+                "unitType": "Mounted",
+                "uniqueTo": "England",
+                "replaces": "Hero",
+                "uniques": [""],
+        },
+        {
+                "name": "",
+        },
+        {
+                "name": "Archbishop",
+                "unitType": "Civilian",
+                "uniqueTo": "Rome",
+                "replaces": "Hero",
+                "uniques": ["[+10]% Strength bonus for [Military] units within [5] tiles",
+                        "All adjacent units heal [+10] HP when healing",
+                        "[33]% Spread Religion Strength",
+                "Can Spread Religion <for [2] movement> <[3] times>",
+                "Gain [100] [Faith] <by consuming this unit>"],
+        },
+        {
+                "name": "Communist",
+                "unitType": "Civilian",
+                "uniqueTo": "Russia",
+                "replaces": "Hero",
+                "uniques": ["[+15]% Strength bonus for [Wounded] units within [3] tiles","Can speed up construction of a building","Gain [100] [Culture] <by consuming this unit>"],
+        },
+        {
+                "name": "Shogun",
+                "unitType": "Sword",
+                "strength": 17,
+                "movement": ,
+                "uniqueTo": "Japan",
+                "replaces": "Hero",
+                "uniques": ["[+100]% Strength <after discovering [Steel]>"]
+        },
+        {
+        }
+]
